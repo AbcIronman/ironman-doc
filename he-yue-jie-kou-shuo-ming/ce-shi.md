@@ -175,7 +175,8 @@ function totalSupplyMap(uint8 nftType) external view returns (uint256 totalSuppl
 ### MintMarkNFT
 
 ```solidity
-event MintMarkNFT(address user, uint256 tokenId, uint256 displayId, uint8 nftType, uint256 durability)
+event MintMarkNFT(address user, uint256 tokenId, uint256 displayId,
+ uint8 nftType, uint256 durability)
 ```
 
 在铸造NFT时触发,会触发的函数有buyMarkOneNFT,getAirdropSevenNFT
