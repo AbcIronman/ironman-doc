@@ -28,9 +28,8 @@ function buyMarkOneNFT(address teamAddress) external;
 
 #### Parameters:
 
-|             |          |                 |
-| ----------- | -------- | --------------- |
 | **Name**    | **Type** | **Description** |
+| ----------- | -------- | --------------- |
 | teamAddress | address  | 邀请人地址       |
 
 #### Return Values:
