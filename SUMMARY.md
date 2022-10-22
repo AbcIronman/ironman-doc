@@ -6,4 +6,3 @@
   * [MarkNft](he-yue-jie-kou-shuo-ming/marknft.md)
   * [ITToken](he-yue-jie-kou-shuo-ming/ittoken.md)
   * [ITStakingPool](he-yue-jie-kou-shuo-ming/itstakingpool.md)
-  * [UniswapV3Factory](he-yue-jie-kou-shuo-ming/IMarkNft.md)
