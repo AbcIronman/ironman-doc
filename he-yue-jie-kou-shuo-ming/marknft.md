@@ -31,6 +31,6 @@ function buyMarkOneNFT(address teamAddress) external;
 |             |          |                 |
 | ----------- | -------- | --------------- |
 | **Name**    | **Type** | **Description** |
-| teamAddress | address  | 邀请人地址           |
+| teamAddress | address  | 邀请人地址       |
 
 #### Return Values:
