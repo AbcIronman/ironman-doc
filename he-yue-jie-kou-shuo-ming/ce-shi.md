@@ -1,6 +1,14 @@
 # 测试
 
-## IMarkNft
+## 合约信息
+
+bscTestnet： 0xe47BfD6D4CC051d87d7B2489A5a6c84cB2c33702
+
+bsc：0x0F79a7822Bc004da6A195f034563c56D9bBA306A
+
+ABI: [https://github.com/defx-vip/ironman-contract-core/blob/main/abi/MarkOneNft.json](https://github.com/defx-vip/ironman-contract-core/blob/main/abi/MarkOneNft.json)
+
+## Functions
 
 ### BuyMarkOneNFT
 
