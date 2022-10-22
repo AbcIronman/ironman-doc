@@ -1,6 +1,6 @@
-# 测试
+# MarkNft
 
-此合约包含了钢铁侠创世NFT、钢铁战衣NFT、钢铁战甲NFT，通过nftType可以区分上述NFT的三种类型
+此合约包含了钢铁侠创世NFT、钢铁战衣NFT、钢铁战甲NFT，通过nftType可以区分上述NFT的三种类型。合约兼容ERC721,以下"接口定义"中没有描述ERC721中的事件和函数，查看ERC721方法和事件请前往 [https://docs.openzeppelin.com/contracts/3.x/api/token/erc721](https://docs.openzeppelin.com/contracts/3.x/api/token/erc721)
 
 ## 合约信息
 
