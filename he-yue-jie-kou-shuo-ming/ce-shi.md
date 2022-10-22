@@ -1,5 +1,7 @@
 # 测试
 
+此合约包含了钢铁侠创世NFT、钢铁战衣NFT、钢铁战甲NFT，通过nftType可以区分上述NFT的三种类型
+
 ## 合约信息
 
 bscTestnet： 0xe47BfD6D4CC051d87d7B2489A5a6c84cB2c33702
@@ -8,7 +10,7 @@ bsc：0x0F79a7822Bc004da6A195f034563c56D9bBA306A
 
 ABI: [https://github.com/defx-vip/ironman-contract-core/blob/main/abi/MarkOneNft.json](https://github.com/defx-vip/ironman-contract-core/blob/main/abi/MarkOneNft.json)
 
-## Functions
+## Events
 
 ### BuyMarkOneNFT
 
@@ -56,6 +58,8 @@ event AirdropFortyFourNFT(address user, uint256 tokenId)
 | ------- | ------- | ----------- |
 | user    | address | NFT接收者      |
 | tokenId | uint256 | nft id      |
+
+## Functions
 
 ### buyMarkOneNFT
 
