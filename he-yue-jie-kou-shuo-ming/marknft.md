@@ -22,7 +22,7 @@ ABI: [https://github.com/defx-vip/ironman-contract-core/blob/main/abi/MarkOneNft
 function buyMarkOneNFT(address teamAddress) external;
 ```
 
-购买钢铁侠创世NFT
+购买钢铁侠创世NFT1
 
 邀请人地址(teamAddress)必须是已经购买过创世NFT的用户地址或者零地址。购买创世NFT会扣款用户10USDT，因此请先调用USDT(测试网为UsdtMock)合约的approve函数为本合约授权后才能调用
 
