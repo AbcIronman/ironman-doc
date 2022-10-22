@@ -1,5 +1,5 @@
 
-## IMarkNft
+# IMarkNft
 
 
 
@@ -10,7 +10,7 @@
 
 
 
-### BuyMarkOneNFT
+## BuyMarkOneNFT
 
 ```solidity
 event BuyMarkOneNFT(address user, address teamAddress, uint256 tokenId, uint256 price)
@@ -19,7 +19,7 @@ event BuyMarkOneNFT(address user, address teamAddress, uint256 tokenId, uint256 
 在购买创世NFT时触发,会触发的函数有buyMarkOneNFT
 
 
-#### Parameters
+### Parameters
 
 | Name | Type | Description |
 | ---- | ---- | ----------- |
@@ -32,7 +32,7 @@ event BuyMarkOneNFT(address user, address teamAddress, uint256 tokenId, uint256 
 
 
 
-### AirdropSevenNFT
+## AirdropSevenNFT
 
 ```solidity
 event AirdropSevenNFT(address user, uint256 tokenId)
@@ -41,7 +41,7 @@ event AirdropSevenNFT(address user, uint256 tokenId)
 在兑换钢铁战衣时触发,会触发的函数有getAirdropSevenNFT
 
 
-#### Parameters
+### Parameters
 
 | Name | Type | Description |
 | ---- | ---- | ----------- |
@@ -52,7 +52,7 @@ event AirdropSevenNFT(address user, uint256 tokenId)
 
 
 
-### AirdropFortyFourNFT
+## AirdropFortyFourNFT
 
 ```solidity
 event AirdropFortyFourNFT(address user, uint256 tokenId)
@@ -61,7 +61,7 @@ event AirdropFortyFourNFT(address user, uint256 tokenId)
 在兑换钢铁战甲时触发,会触发的函数有getAirdropFortyFourNFT
 
 
-#### Parameters
+### Parameters
 
 | Name | Type | Description |
 | ---- | ---- | ----------- |
@@ -71,7 +71,7 @@ event AirdropFortyFourNFT(address user, uint256 tokenId)
 
 
 
-### buyMarkOneNFT
+## buyMarkOneNFT
 
 ```solidity
 function buyMarkOneNFT(address teamAddress) external
@@ -81,7 +81,7 @@ function buyMarkOneNFT(address teamAddress) external
 
 _邀请人地址(teamAddress)必须是已经购买过创世NFT的用户地址或者零地址_
 
-#### Parameters
+### Parameters
 
 | Name | Type | Description |
 | ---- | ---- | ----------- |
@@ -90,7 +90,7 @@ _邀请人地址(teamAddress)必须是已经购买过创世NFT的用户地址或
 
 
 
-### getAirdropSevenNFT
+## getAirdropSevenNFT
 
 ```solidity
 function getAirdropSevenNFT() external
@@ -104,7 +104,7 @@ _需要直推用户至少10人才能钢铁战衣NFT_
 
 
 
-### getAirdropFortyFourNFT
+## getAirdropFortyFourNFT
 
 ```solidity
 function getAirdropFortyFourNFT() external
@@ -118,7 +118,7 @@ _需要直推用户至少6人并且这6人都邀请满10人才能领取钢铁战
 
 
 
-### markOnePrice
+## markOnePrice
 
 ```solidity
 function markOnePrice() external view returns (uint256 markOnePrice)
@@ -128,7 +128,7 @@ function markOnePrice() external view returns (uint256 markOnePrice)
 
 
 
-#### Return Values
+### Return Values
 
 | Name | Type | Description |
 | ---- | ---- | ----------- |
@@ -136,7 +136,7 @@ function markOnePrice() external view returns (uint256 markOnePrice)
 
 
 
-### idoStartTime
+## idoStartTime
 
 ```solidity
 function idoStartTime() external view returns (uint256 idoStartTime)
@@ -146,7 +146,7 @@ function idoStartTime() external view returns (uint256 idoStartTime)
 
 
 
-#### Return Values
+### Return Values
 
 | Name | Type | Description |
 | ---- | ---- | ----------- |
@@ -154,7 +154,7 @@ function idoStartTime() external view returns (uint256 idoStartTime)
 
 
 
-### deadlineTime
+## deadlineTime
 
 ```solidity
 function deadlineTime() external view returns (uint256 deadlineTime)
@@ -164,7 +164,7 @@ function deadlineTime() external view returns (uint256 deadlineTime)
 
 
 
-#### Return Values
+### Return Values
 
 | Name | Type | Description |
 | ---- | ---- | ----------- |
@@ -172,7 +172,7 @@ function deadlineTime() external view returns (uint256 deadlineTime)
 
 
 
-### userMap
+## userMap
 
 ```solidity
 function userMap(address user) external view returns (address superior, uint8 level, uint256 childLv1Count, uint256 childLv2Count, bool receivedAirdrop1, bool receivedAirdrop2)
@@ -181,13 +181,13 @@ function userMap(address user) external view returns (address superior, uint8 le
 获取ido用户信息
 
 
-#### Parameters
+### Parameters
 
 | Name | Type | Description |
 | ---- | ---- | ----------- |
 | user | address | 用户地址 |
 
-#### Return Values
+### Return Values
 
 | Name | Type | Description |
 | ---- | ---- | ----------- |
@@ -200,7 +200,7 @@ function userMap(address user) external view returns (address superior, uint8 le
 
 
 
-### totalSupplyMap
+## totalSupplyMap
 
 ```solidity
 function totalSupplyMap(uint8 nftType) external view returns (uint256 totalSupply)
@@ -209,13 +209,13 @@ function totalSupplyMap(uint8 nftType) external view returns (uint256 totalSuppl
 获取nft已铸造信息
 
 
-#### Parameters
+### Parameters
 
 | Name | Type | Description |
 | ---- | ---- | ----------- |
 | nftType | uint8 | nft类型 0:钢铁侠NFT 1:钢铁战衣 2:钢铁战甲 |
 
-#### Return Values
+### Return Values
 
 | Name | Type | Description |
 | ---- | ---- | ----------- |
@@ -224,7 +224,7 @@ function totalSupplyMap(uint8 nftType) external view returns (uint256 totalSuppl
 
 
 
-### MintMarkNFT
+## MintMarkNFT
 
 ```solidity
 event MintMarkNFT(address user, uint256 tokenId, uint256 displayId, uint8 nftType, uint256 durability)
@@ -233,7 +233,7 @@ event MintMarkNFT(address user, uint256 tokenId, uint256 displayId, uint8 nftTyp
 在铸造NFT时触发,会触发的函数有buyMarkOneNFT,getAirdropSevenNFT
 
 
-#### Parameters
+### Parameters
 
 | Name | Type | Description |
 | ---- | ---- | ----------- |
