@@ -26,16 +26,16 @@ Creates a pool for the given two tokens and fee
 
 tokenA and tokenB may be passed in either order: token0/token1 or token1/token0. tickSpacing is retrieved from the fee. The call will revert if the pool already exists, the fee is invalid, or the token arguments are invalid.
 
-Some Markdown text with <span style="color:blue">some *blue* text</span>.
+Some Markdown text with <span style="color:red">some *red* text</span>.
 
 #### Parameters:
 | Name        | Type | Description |
-| ----------- | -------- | -----------------------------------------------|
+|-----| ----- | -----------------------------------------------|
 | tokenA      | address  | One of the two tokens in the desired pool      |
 | tokenB      | address  | The other of the two tokens in the desired pool|
 | fee         | uint24   | The desired fee for the pool|
 
 #### Return Values:
 | Name        | Type | Description |
-| ----------- | -------- | -----------------------------------------------|
-| pool        | address   | The address of the newly created pool|
+| ----- | ----- | -----------------------------------------------|
+| pool        | address  | The address of the newly created pool|
