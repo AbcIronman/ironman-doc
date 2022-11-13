@@ -6,7 +6,7 @@ it 代币，合约兼容ERC20，以下"接口定义"中没有描述ERC20中的�
 
 bscTestnet： 0x5Aa0B2165Fa68539ac991FfaCd57bF800ECAb26C
 
-bsc：&#x20;
+bsc： 0x2fff67cae48ed56115abab6ab4336fa1807bf74d
 
 ABI: [ ](https://github.com/defx-vip/ironman-contract-core/blob/main/abi/UsdtMock.json)[https://github.com/defx-vip/ironman-contract-core/blob/main/abi/ITToken.json](https://github.com/defx-vip/ironman-contract-core/blob/main/abi/ITToken.json)
 
