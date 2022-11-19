@@ -8,7 +8,7 @@ bscTestnet：0x85631D304d8F4F613eED7184211C2a45e9D3BF3A 0x1Fda947dAA4397F8f9854D
 
 0xF4b558e07E446E6531627Ea162fC8fff51C7F15d 0x24fccac890b68f1da5662a21842eef23f95e7ec7
 
-bsc：
+bsc：0xFa8309F03EDD7dD2A35aBeFaF016840B28B6Be96
 
 abi： [https://github.com/defx-vip/ironman-contract-core/blob/main/abi/ITStakingPool.json](https://github.com/defx-vip/ironman-contract-core/blob/main/abi/ITStakingPool.json)
 
